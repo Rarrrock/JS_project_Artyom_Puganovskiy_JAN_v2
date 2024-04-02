@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>User-Details</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-$END$
+<h1>User Details</h1>
+<div id="userDetailsContainer">
+    <!-- Здесь будет отображаться подробная информация о пользователе -->
+</div>
+<div id="userPostsContainer">
+    <!-- Здесь будет отображаться подробная информация о постах пользователя -->
+</div>
+<!--    <button onclick="showUserPosts()">Show Posts</button> &lt;!&ndash;Кнопка перехода к постам&ndash;&gt;-->
+<button onclick="goBack()">Go Back</button> <!--Кнопка возврата на предыдущую страницу-->
+
+<script src="script.js"></script>
+<!--На странице user-details.html:-->
+<!--4 Вивести всю, без виключення, інформацію про об'єкт user на який клікнули-->
+<!--5 Додати кнопку "post of current user", при кліку на яку, з'являються title всіх постів поточного юзера-->
+<!--(для отримання постів використовуйте эндпоінт https://jsonplaceholder.typicode.com/users/USER_ID/posts)-->
+<!--6 Каждому посту додати кнопку/посилання, при кліку на яку відбувається перехід на сторінку post-details.html, котра має детальну інфу про поточний пост.-->
+
 </body>
 </html>

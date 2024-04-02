@@ -1,0 +1,117 @@
+/* main.css */
+
+/* Стили для index.html */
+.user-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.user {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 45%;
+}
+
+.user:hover {
+    background-color: #e0e0e0;
+}
+
+.user-details-link {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+}
+
+/* Стили для user-details.html */
+#userDetailsContainer,
+#userPostsContainer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+}
+
+#userPostsContainer {
+    text-align: center;
+}
+
+.post-link {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+
+/*.user-details {*/
+/*    background-color: #f0f0f0;*/
+/*    padding: 20px;*/
+/*    margin: 20px auto;*/
+/*    width: 70%;*/
+/*}*/
+
+/*.user-details p {*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*.postDetailsContainer {*/
+/*    margin-top: 20px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.posts-link {*/
+/*    display: inline-block;*/
+/*    padding: 10px 20px;*/
+/*    background-color: #007bff;*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/* Стили для post-details.html */
+#postDetailsContainer,
+#commentsContainer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px auto;
+    width: 70%;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/*.post-info {*/
+/*    background-color: #f0f0f0;*/
+/*    padding: 20px;*/
+/*    margin: 20px auto;*/
+/*    width: 70%;*/
+/*}*/
+
+/*.comments-container {*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*.comment {*/
+/*    background-color: #f9f9f9;*/
+/*    padding: 10px;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+
+/*!* доп анимация *!*/
+/*.fade-in {*/
+/*    opacity: 0;*/
+/*    transition: opacity 0.5s ease-in-out;*/
+/*}*/
+
+/*.fade-in.active {*/
+/*    opacity: 1;*/
+/*}*/
